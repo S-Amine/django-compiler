@@ -5,7 +5,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name='django-compiler',
-    version='0.1',
+    version='0.2',
     packages=['django_compiler'],
     python_requires='>=3.10',
     install_requires=[
