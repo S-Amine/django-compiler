@@ -8,10 +8,6 @@
 - Exclude specific directories from compilation.
 - Simple and user-friendly command-line interface.
 
-
-## Solution
-Django Client Whitelist provides a solution to this problem by allowing you to create a predefined list of client hosts that are allowed to access the API. With this middleware in place, you can be sure that only authorized hosts can request your API endpoints, making your application more secure.
-
 ## Installation
 You can install **django-compiler** via pip:
 
