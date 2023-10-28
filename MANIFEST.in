@@ -1,5 +1,3 @@
 include LICENSE
 include README.md
 recursive-include django_compiler *
-recursive-include django_compiler/management *
-recursive-include django_compiler/management/commands *

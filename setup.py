@@ -1,12 +1,12 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("README.md", "r") as readme_file:
     long_description = readme_file.read()
 
 setup(
     name='django-compiler',
-    version='0.3',
-    packages=['django_compiler'],
+    version='0.45',
+    packages=find_packages(),
     python_requires='>=3.10',
     install_requires=[
         'Django>=4.1.4',
